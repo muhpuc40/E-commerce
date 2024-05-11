@@ -1,12 +1,14 @@
+
 <!doctype html>
 <html lang="en">
   <head>
-<title>Fashion Template for Bootstrap</title>
+  	<title>Fashion Template for Bootstrap</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-       <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900" rel="stylesheet"> 
 	
@@ -18,7 +20,7 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/owl-carousel.css" rel="stylesheet">
-
+	 <link href="css/lightbox.css" rel="stylesheet">
     <!-- Custom styles for this template -->
   </head>
 
@@ -144,7 +146,7 @@
 	<div class="menu">
 	<div class="container">
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light d-sm-none d-xs-none d-lg-block navbar-full">
+		<nav class="navbar navbar-expand-lg navbar-light d-sm-none d-xs-none d-lg-block">
 		
 		<!-- Navbar brand -->
 		<a class="navbar-brand text-uppercase d-none" href="#">Navbar</a>
@@ -160,12 +162,15 @@
 		
 		<!-- Links -->
 		<ul class="navbar-nav m-auto justify-content-center">
+		
+		<!-- Features -->
 		<li class="nav-item dropdown active">
 		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">
-			Home
+			Features
 		  <span class="sr-only">(current)</span>        </a>
 		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3">
 			<div class="sub-menu mb-xl-0 mb-4">
+			  <h6 class="sub-title text-uppercase font-weight-normal white-text">Featured</h6>
 			  <ul class="list-unstyled">
 				<li>
 				  <a class="menu-item pl-0" href="index.html">
@@ -186,16 +191,21 @@
 			</div>
 		</div>
 		</li>
-		<li class="nav-item dropdown mega-dropdown">
-		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">Category</a>
+		<li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">
+			Elements
+		  <span class="sr-only">(current)</span>        </a>
 		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3">
-		  <div class="row">
-			<div class="col-md-12 col-xl-4 sub-menu mb-xl-0 mb-4">
-			  <h6 class="sub-title text-uppercase font-weight-bold white-text">Variation 1</h6>
-			  <!--Featured image-->
+			<div class="sub-menu mb-xl-0 mb-4">
+			  <h6 class="sub-title text-uppercase font-weight-normal white-text">Featured</h6>
 			  <ul class="list-unstyled">
-				
-				 <li>
+				<li>
+				  <a class="menu-item pl-0" href="accordions.html">
+					Accordions                  </a>                </li>
+				<li>
+				  <a class="menu-item pl-0" href="buttons.html">
+				   Buttons              </a>                </li>
+				<li>
 				  <a class="menu-item pl-0" href="filter-toggle.html">
 					filter toggle                  </a>                </li>
 				<li>
@@ -206,40 +216,16 @@
 					off canvas right                </a>                </li>
 			  </ul>
 			</div>
-			<div class="col-md-6 col-xl-4 sub-menu mb-md-0 mb-4">
-			  <h6 class="sub-title text-uppercase font-weight-bold white-text">Variation 2</h6>
-				<ul class="list-unstyled">
-				<li>
-				  <a class="menu-item pl-0" href="category-5-col.html">
-					5 columns mode                 </a>                </li>
-				<li>
-				  <a class="menu-item pl-0" href="category-6-col.html">
-				   6 columns mode                     </a>                </li>
-				<li>
-				  <a class="menu-item pl-0" href="category-7-col.html">
-				   7 columns mode                     </a>                </li>
-				<li>
-				  <a class="menu-item pl-0" href="category-8-col.html">
-				   8 columns mode                 </a>                </li>
-				
-			  </ul>
-			</div>
-			<div class="col-md-6 col-xl-4 sub-menu mb-0">
-		
-					<ul class="list-unstyled">
-				<li>
-					<span class="menu-banner"><img src="img/banner/menu-banner.jpg" alt="menu-banner" /></span>                </li>
-			  </ul>
-			</div>
-		  </div>
 		</div>
 		</li>
-		<li class="nav-item dropdown">
-		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">
-			Shop
-		  <span class="sr-only">(current)</span>        </a>
+		<!-- Technology -->
+		<li class="nav-item dropdown mega-dropdown">
+		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">Technology</a>
 		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3">
-			<div class="sub-menu mb-xl-0 mb-4">
+		  <div class="row">
+			<div class="col-md-12 col-xl-4 sub-menu mb-xl-0 mb-4">
+			  <h6 class="sub-title text-uppercase font-weight-normal white-text">Product page</h6>
+			  <!--Featured image-->
 			  <ul class="list-unstyled">
 				<li>
 				  <a class="menu-item pl-0" href="product-grid.html">
@@ -257,15 +243,45 @@
 				  <a class="menu-item pl-0" href="product-compact.html">
 					compact layout           </a>                </li>
 			  </ul>
-			  
 			</div>
+			<div class="col-md-6 col-xl-4 sub-menu mb-md-0 mb-4">
+			  <h6 class="sub-title text-uppercase font-weight-normal white-text">Category page</h6>
+				<ul class="list-unstyled">
+				<li>
+				  <a class="menu-item pl-0" href="category-5-col.html">
+					grid 5 column                 </a>                </li>
+				<li>
+				  <a class="menu-item pl-0" href="category-6-col.html">
+				   grid 6 column                  </a>                </li>
+				<li>
+				  <a class="menu-item pl-0" href="category-7-col.html">
+					grid 7 column                   </a>                </li>
+				<li>
+				  <a class="menu-item pl-0" href="category-8-col.html">
+					grid 8 column                </a>                </li>
+				<li>
+				  <a class="menu-item pl-0" href="#!">
+					Header 5                  </a>                </li>
+			  </ul>
+			</div>
+			<div class="col-md-6 col-xl-4 sub-menu mb-0">
+		
+					<ul class="list-unstyled">
+				<li>
+					<span class="menu-banner"><img src="img/banner/menu-banner.jpg" alt="menu-banner" /></span>                </li>
+			  </ul>
+			</div>
+		  </div>
 		</div>
 		</li>
+		<li class="nav-item dropdown">
+		<a class="nav-link text-uppercase" href="contact-us.html">contact us</a>      </li>
+		
 		<li class="nav-item dropdown">   
 		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">Blog</a>
 		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3">
 			<div class="sub-menu">
-			  <h6 class="sub-title text-uppercase font-weight-bold white-text d-none">Featured</h6>
+			  <h6 class="sub-title text-uppercase font-weight-normal white-text d-none">Featured</h6>
 			<ul class="list-unstyled">
 				  <li>
 				  <a class="menu-item pl-0" href="blog-2-column.html">
@@ -273,6 +289,7 @@
 				<li>
 				  <a class="menu-item pl-0" href="blog-3-column.html">
 				   blog 3 column                  </a>                </li>
+				<li>
 				<li>
 				  <a class="menu-item pl-0" href="blog-2-column-masonary.html">
 				   blog masonary                 </a>                </li>
@@ -286,26 +303,6 @@
 			</div>
 		</div>
 		</li>
-		<li class="nav-item dropdown">   
-		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">Pages</a>
-		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3">
-			<div class="sub-menu">
-			<ul class="list-unstyled">
-				 <li>
-				  <a class="menu-item pl-0" href="about-us.html">
-					About us                 </a>				 </li>
-					<li>
-				  <a class="menu-item pl-0" href="accordions.html">
-					Accordions                  </a>                </li>
-	              <li>
-				  <a class="menu-item pl-0" href="buttons.html">
-				   Buttons              </a>                </li>
-			  </ul>
-			</div>
-		</div>
-		</li>
-		<li class="nav-item dropdown">
-		<a class="nav-link text-uppercase" href="contact-us.html">contact us</a>      </li>
 		</ul>
 		<!-- Links -->
 		</div>
@@ -332,12 +329,12 @@
 		
 		<!-- Features -->
 		<li class="nav-item dropdown active">
-		<a class="nav-link dropdown-toggle text-uppercase" data-toggle="collapse" data-target="#menu1"
-		aria-controls="menu1" aria-expanded="false" aria-label="Toggle navigation" href="#">
-			Home
+		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">
+			Features
 		  <span class="sr-only">(current)</span>        </a>
-		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3" id="menu1">
+		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3">
 			<div class="sub-menu mb-xl-0 mb-4">
+			  <h6 class="sub-title text-uppercase font-weight-normal white-text">Featured</h6>
 			  <ul class="list-unstyled">
 				<li>
 				  <a class="menu-item pl-0" href="index.html">
@@ -358,16 +355,21 @@
 			</div>
 		</div>
 		</li>
-		<li class="nav-item dropdown mega-dropdown">
-		<a class="nav-link dropdown-toggle text-uppercase" data-toggle="collapse" data-target="#menu3"
-		aria-controls="menu3" aria-expanded="false" aria-label="Toggle navigation" href="#">Category</a>
-		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3" id="menu3">
-		  <div class="row">
-			<div class="col-md-12 col-xl-4 sub-menu mb-xl-0 mb-4">
-			  <h6 class="sub-title text-uppercase font-weight-bold white-text">Variation 1</h6>
-			  <!--Featured image-->
+		<li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">
+			Elements
+		  <span class="sr-only">(current)</span>        </a>
+		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3">
+			<div class="sub-menu mb-xl-0 mb-4">
+			  <h6 class="sub-title text-uppercase font-weight-normal white-text">Featured</h6>
 			  <ul class="list-unstyled">
-				 <li>
+				<li>
+				  <a class="menu-item pl-0" href="accordions.html">
+					Accordions                  </a>                </li>
+				<li>
+				  <a class="menu-item pl-0" href="buttons.html">
+				   Buttons              </a>                </li>
+				<li>
 				  <a class="menu-item pl-0" href="filter-toggle.html">
 					filter toggle                  </a>                </li>
 				<li>
@@ -378,42 +380,16 @@
 					off canvas right                </a>                </li>
 			  </ul>
 			</div>
-			<div class="col-md-6 col-xl-4 sub-menu mb-md-0 mb-4">
-			  <h6 class="sub-title text-uppercase font-weight-bold white-text">Variation 2</h6>
-				<ul class="list-unstyled">
-				<li>
-				  <a class="menu-item pl-0" href="category-5-col.html">
-					grid 5 column                 </a>                </li>
-				<li>
-				  <a class="menu-item pl-0" href="category-6-col.html">
-				   grid 6 column                  </a>                </li>
-				<li>
-				  <a class="menu-item pl-0" href="category-7-col.html">
-					grid 7 column                   </a>                </li>
-				<li>
-				  <a class="menu-item pl-0" href="category-8-col.html">
-					grid 8 column                </a>                </li>
-			  </ul>
-			</div>
-			<div class="col-md-6 col-xl-4 sub-menu mb-0">
-		
-					<ul class="list-unstyled">
-				<li>
-					<span class="menu-banner"><img src="img/banner/menu-banner.jpg" alt="menu-banner" /></span>                </li>
-			  </ul>
-			</div>
-		  </div>
 		</div>
 		</li>
-		
-		<li class="nav-item dropdown">
-		<a class="nav-link dropdown-toggle text-uppercase" data-toggle="collapse" data-target="#menu2"
-		aria-controls="menu2" aria-expanded="false" aria-label="Toggle navigation" href="#">
-			Shop
-		  <span class="sr-only">(current)</span>        </a>
-		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3" id="menu2">
-			<div class="sub-menu mb-xl-0 mb-4">
-			  <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
+		<!-- Technology -->
+		<li class="nav-item dropdown mega-dropdown">
+		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">Technology</a>
+		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3">
+		  <div class="row">
+			<div class="col-md-12 col-xl-4 sub-menu mb-xl-0 mb-4">
+			  <h6 class="sub-title text-uppercase font-weight-normal white-text">Product page</h6>
+			  <!--Featured image-->
 			  <ul class="list-unstyled">
 				<li>
 				  <a class="menu-item pl-0" href="product-grid.html">
@@ -432,18 +408,44 @@
 					compact layout           </a>                </li>
 			  </ul>
 			</div>
+			<div class="col-md-6 col-xl-4 sub-menu mb-md-0 mb-4">
+			  <h6 class="sub-title text-uppercase font-weight-normal white-text">Category page</h6>
+				<ul class="list-unstyled">
+				<li>
+				  <a class="menu-item pl-0" href="category-5-col.html">
+					grid 5 column                 </a>                </li>
+				<li>
+				  <a class="menu-item pl-0" href="category-6-col.html">
+				   grid 6 column                  </a>                </li>
+				<li>
+				  <a class="menu-item pl-0" href="category-7-col.html">
+					grid 7 column                   </a>                </li>
+				<li>
+				  <a class="menu-item pl-0" href="category-8-col.html">
+					grid 8 column                </a>                </li>
+				<li>
+				  <a class="menu-item pl-0" href="#!">
+					Header 5                  </a>                </li>
+			  </ul>
+			</div>
+			<div class="col-md-6 col-xl-4 sub-menu mb-0">
+		
+					<ul class="list-unstyled">
+				<li>
+					<span class="menu-banner"><img src="img/banner/menu-banner.jpg" alt="menu-banner" /></span>                </li>
+			  </ul>
+			</div>
+		  </div>
 		</div>
 		</li>
-		<!-- Technology -->
-		
-		
+		<li class="nav-item dropdown">
+		<a class="nav-link text-uppercase" href="contact-us.html">contact us</a>      </li>
 		
 		<li class="nav-item dropdown">   
-		<a class="nav-link dropdown-toggle text-uppercase"  data-toggle="collapse" data-target="#menu4"
-		aria-controls="menu4" aria-expanded="false" aria-label="Toggle navigation" href="#">Blog</a>
-		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3" id="menu4">
+		<a class="nav-link dropdown-toggle text-uppercase" href="category.html">Blog</a>
+		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3">
 			<div class="sub-menu">
-			  <h6 class="sub-title text-uppercase font-weight-bold white-text d-none">Featured</h6>
+			  <h6 class="sub-title text-uppercase font-weight-normal white-text d-none">Featured</h6>
 			<ul class="list-unstyled">
 				  <li>
 				  <a class="menu-item pl-0" href="blog-2-column.html">
@@ -451,6 +453,7 @@
 				<li>
 				  <a class="menu-item pl-0" href="blog-3-column.html">
 				   blog 3 column                  </a>                </li>
+				<li>
 				<li>
 				  <a class="menu-item pl-0" href="blog-2-column-masonary.html">
 				   blog masonary                 </a>                </li>
@@ -460,30 +463,6 @@
 				<li>
 				  <a class="menu-item pl-0" href="blog-details.html">
 				   blog details                  </a>                </li>
-			  </ul>
-			</div>
-		</div>
-		</li>
-		
-		<li class="nav-item dropdown">
-		<a class="nav-link text-uppercase" href="contact-us.html">contact us</a>      </li>
-		
-		<li class="nav-item dropdown">   
-		<a class="nav-link dropdown-toggle text-uppercase"  data-toggle="collapse" data-target="#menu5"
-		aria-controls="menu5" aria-expanded="false" aria-label="Toggle navigation" href="#">Pages</a>
-		<div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3" id="menu5">
-			<div class="sub-menu">
-			  <h6 class="sub-title text-uppercase font-weight-bold white-text d-none">Featured</h6>
-			<ul class="list-unstyled">
-				  <li>
-				  <a class="menu-item pl-0" href="about-us.html">
-					About us                 </a>				 </li>
-					<li>
-				  <a class="menu-item pl-0" href="accordions.html">
-					Accordions                  </a>                </li>
-	              <li>
-				  <a class="menu-item pl-0" href="buttons.html">
-				   Buttons              </a>                </li>
 			  </ul>
 			</div>
 		</div>
@@ -499,198 +478,88 @@
 	</div>
 	</div>
 	</header>
+	
 	<nav aria-label="breadcrumb" class="w-100 float-left">
   <ol class="breadcrumb parallax justify-content-center" data-source-url="img/banner/parallax.jpg" style="background-image: url(&quot;img/banner/parallax.jpg&quot;); background-position: 50% 0.809717%;">
     <li class="breadcrumb-item"><a href="#">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">blog-details</li>
+		    <li class="breadcrumb-item active" aria-current="page">cart</li>
+
   </ol>
 </nav>
-	<div class="main-content w-100 float-left blog-detail"> 
-		<div class="container">
+    
+	<div class="cart-area table-area pt-110 pb-95 float-left w-100">
+            <div class="container">
 			<div class="row">
-				<div class="products-grid col-xl-9 col-lg-9 order-lg-2 blog-details">
-					<div class="row">
-					<div class="ttblog col-sm-12 col-xs-12 float-left">
-	<div class="item">
-		<div class="ttblog_image_holder">
-			<a href="#">
-				<img src="img/banner/blog-01.jpg" alt="blog-01">							</a>
+			<div class="col-lg-8 col-md-12 col-sm-12 float-left cart-wrapper">
+                <div class="table-responsive">
+                    <table class="table product-table text-center">
+                       <thead>
+                            <tr>
+                                <th class="table-remove text-capitalize">remove</th>
+                                <th class="table-image text-capitalize">image</th>
+                                <th class="table-p-name text-capitalize">product</th>
+                                <th class="table-p-price text-capitalize">price</th>
+                                <th class="table-p-qty text-capitalize">quantity</th>
+                                <th class="table-total text-capitalize">total</th>
+                            </tr>
+                        </thead>
+                       <tbody>
+                            <tr>
+                                <td class="table-remove"><button><i class="material-icons">delete</i></button></td>
+                                <td class="table-image"><a href="product-details.html"><img src="img/products/02.jpg" alt=""></a></td>
+                                <td class="table-p-name text-capitalize"><a href="product-details.html">aspetur autodit autfugit</a></td>
+                                <td class="table-p-price"><p>$100.00</p></td>
+                                <td class="table-p-qty"><input value="1" name="cart-qty" type="number"></td>
+                                <td class="table-total"><p>$100.00</p></td>
+                            </tr>
+                            <tr>
+                                <td class="table-remove"><button><i class="material-icons">delete</i></button></td>
+                                <td class="table-image"><a href="product-details.html"><img src="img/products/03.jpg" alt=""></a></td>
+                                <td class="table-p-name text-capitalize"><a href="product-details.html">magni dolores eosquies</a></td>
+                                <td class="table-p-price"><p>$100.00</p></td>
+                                <td class="table-p-qty"><input value="1" name="cart-qty" type="number"></td>
+                                <td class="table-total"><p>$100.00</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table-bottom-wrapper">
+                    <div class="table-coupon d-flex d-xs-block d-lg-flex d-sm-flex fix justify-content-start float-left">
+                        <input type="text" placeholder="Coupon code">
+                        <button type="submit" class="btn-primary btn">Apply coupon</button>
+                    </div>
+                    <div class="table-update d-flex d-xs-block d-lg-flex d-sm-flex justify-content-end">
+                        <button type="button" class="btn-primary btn">Update cart</button>
+                    </div>
+                </div>
 			</div>
-		<div class="blog-content-wrap">
-		<div class="blog_inner">
-			<h4 class="blog-title">Share the Love</h4>
-			<div class="post-info d-flex">
-			<span class="author d-flex"><i class="material-icons">perm_identity</i><span>admin</span></span>
-			<span class="date d-flex"><i class='material-icons'>date_range</i><span>12 june 2019</span></span>
-			<span class="article d-flex"><i class='material-icons'>folder</i><span>categories</span></span>
-			</div>
-			<div class="blog-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan tristique erat et fermentum. Nulla facilisi. Proin tristique vitae dui nec sodales. Maecenas cursus odio sed erat varius, in ultricies purus blandit. Nam finibus lectus mi, eget molestie est lacinia molestie. Curabitur eget fermentum ipsum. Aliquam venenatis maximus ante, et volutpat enim congue non. Cras at rutrum metus. Praesent in accumsan sapien, eu posuere sem. Integer rutrum libero eget sollicitudin porttitor. Duis porttitor felis sit amet neque tincidunt pharetra. Curabitur eget urna dignissim, faucibus tortor sed, iaculis nunc.
-			<blockquote>consectetur adipiscing elit. In rutrum odio urna, vitae ultrices mi malesuada ut. Praesent lacus erat, ultricies ut risus nec, pellentesque interdum purus. In mi justo, consectetur tincidunt sapien eget, venenatis volutpat risus. Maecenas eget pretium eros. Integer tincidunt aliquet ligula in vulputate. Ut ut justo facilisis, vulputate augue vel, vestibulum tortor. Nullam varius lacus non porttitor sodales. Vivamus ultricies est vitae pharetra convallis. Sed suscipit, nisi sit amet tempus mollis, mauris ante tempor risu</blockquote>
-			Curabitur sit amet mauris auctor, tempor lacus ut, pretium turpis. Nulla dapibus, orci vel malesuada porta, augue justo interdum felis, sit amet molestie tellus lorem vitae mauris. Quisque metus turpis, suscipit mattis enim vitae, iaculis feugiat tellus. Nullam tempor tortor neque, eu vestibulum turpis tempor tempus. Phasellus tempus, tortor vitae pellentesque pellentesque, orci ipsum eleifend turpis, in aliquam magna augue non neque. Praesent elementum mollis metus at maximus. Nulla eu lacus sollicitudin, auctor odio vel, ornare ligula. Proin a dictum metus. In viverra, ipsum ut vehicula tincidunt, sapien justo tristique massa, eu lobortis neque nulla sit amet nisi. Proin vitae nunc ut ligula sodales dignissim a quis enim. Sed condimentum metus et dignissim efficitur. Cras nec sapien eget est rhoncus euismod.
-			</div>
-			
-		</div>
-		</div>
-	</div>
-	</div>
-	<div class="post-comment-area pt-90 scroll-area col-sm-12 col-xs-12">
-                            <h4 class="post-title">3 comments</h4>
-                            <div class="post-comment-container">
-                                <div class="single-post-comment float-left w-100">
-                                    <div class="single-post-image float-left">
-                                        <img src="img/logos/author.jpg" alt="">
-                                    </div>
-                                    <div class="single-post-content">
-                                        <div class="single-post-info float-left">
-                                            <a href="#">admin</a>
-                                            <span>October 6, 2018 at 1:38 am</span>
-                                            <p>just a nice post</p>
-                                        </div>
-                                        <button type="button" class="float-right btn-primary btn">reply</button>
-                                    </div>
-                                </div>
-                                <div class="single-post-comment float-left w-100">
-                                    <div class="single-post-image float-left">
-                                        <img src="img/logos/author.jpg" alt="">
-                                    </div>
-                                    <div class="single-post-content">
-                                        <div class="single-post-info float-left">
-                                            <a href="#">demo</a>
-                                            <span>October 6, 2018 at 1:38 am</span>
-                                            <p>Quisque semper nunc vitae erat pellentesque, ac placerat arcu consectetur</p>
-                                        </div>
-                                        <button type="button" class="float-right btn-primary btn">reply</button>
-                                    </div>
-                                </div>
-                                <div class="single-post-comment float-left w-100">
-                                    <div class="single-post-image float-left">
-                                        <img src="img/logos/author.jpg" alt="">
-                                    </div>
-                                    <div class="single-post-content">
-                                        <div class="single-post-info float-left">
-                                            <a href="#">admin</a>
-                                            <span>October 6, 2018 at 1:38 am</span>
-                                            <p>Quisque orci nibh, porta vitae sagittis sit amet, vehicula vel mauris. Aenean at justo dolor. Fusce ac sapien bibendum, scelerisque libero nec</p>
-                                        </div>
-                                        <button type="button" class="float-right btn-primary btn">reply</button>
-                                    </div>
-                                </div>
+			<div class="table-total-wrapper d-flex justify-content-end pt-60 col-md-12 col-sm-12 col-lg-4 float-left  align-items-center">
+                    <div class="table-total-content">
+                        <h2 class="pb-20">Cart totals</h2>
+                        <div class="table-total-amount">
+                            <div class="single-total-content d-flex justify-content-between float-left w-100">
+                                <strong>Subtotal</strong>
+                                <span class="c-total-price">$160.00</span>
                             </div>
+                            <div class="single-total-content d-flex justify-content-between float-left w-100">
+                                <strong>Shipping</strong>
+                                <span class="c-total-price"><span>Flat Rate:</span> $5.00</span>
+                            </div>
+                            <div class="single-total-content d-flex justify-content-end float-left w-100">
+                                <a href="#">Calculate shipping</a>
+                            </div>
+                            <div class="single-total-content tt-total d-flex justify-content-between float-left w-100">
+                                <strong>Total</strong>
+                                <span class="c-total-price">$165.00</span>
+                            </div>
+                            <a href="checkout_page.html" class="btn btn-primary float-left w-100 text-center">Proceed to checkout</a>
                         </div>
-						<form action="#" class="post-comment-form col-sm-12">
-                            <h4 class="post-title">Leave a Reply</h4>
-                            <p>Your email address will not be published. Required fields are marked *</p>
- 									<div class="row">
-                                <div class="col-lg-4">
-                                    <label for="post-name">Name <span class="required">*</span></label>
-                                    <input type="text" id="post-name" class="w-100" required>
-                                </div>
-                                <div class="col-lg-4">
-                                    <label for="post-email">Email <span class="required">*</span></label>
-                                    <input type="email" id="post-email" class="w-100" required>
-                                </div>
-                                <div class="col-lg-4">
-                                    <label for="post-website">Website</label>
-                                    <input type="text" id="post-website" class="w-100" required>
-                                </div>
-                            </div>
-							                           <label for="post-text">Comment</label>
-                            <textarea name="post-comment" id="post-text" cols="30" rows="10" class="w-100"></textarea>
-                            
-                            <button type="submit" class="default-btn btn-primary btn">post comment</button>
-                        </form>
-					</div>
-				</div>
-							<div class="sidebar col-xl-3 col-lg-3 order-lg-1">
-					<div class="sidebar-blog left-sidebar w-100 float-left">
-					<div class="title">
-					<a data-toggle="collapse" href="#sidebar-blog" aria-expanded="false" aria-controls="sidebar-blog" class="d-lg-none block-toggler">Recent Posts</a>
-					</div>
-					<h3 class="widget-title text-capitalize">recent posts</h3>
-					<div id="sidebar-blog" class="">
-						<div class="ttblog w-100 float-left">
-							<div class="item">
-								<div class="ttblog_image_holder col-sm-4 float-left">
-									<a href="#">
-										<img src="img/banner/blog-01.jpg" alt="blog-01">							</a>
-									</div>
-								<div class="blog-content-wrap col-sm-8 float-right">
-								<div class="blog_inner">
-									<h4 class="blog-title">Share the Love</h4>
-									<div class="post-info d-flex">
-									<span class="date d-flex"><i class="material-icons">date_range</i><span>12 june 2019</span></span>
-									</div>
-								</div>
-								</div>
-							</div>
-							</div>
-							<div class="ttblog w-100 float-left">
-					<div class="item">
-						<div class="ttblog_image_holder col-sm-4 float-left">
-							<a href="#">
-								<img src="img/banner/blog-02.jpg" alt="blog-02">							</a>
-													</div>
-						<div class="blog-content-wrap col-sm-8 float-right">
-						<div class="blog_inner">
-							<h4 class="blog-title">Upon of seasons earth</h4>
-							<div class="post-info d-flex">
-			<span class="date d-flex"><i class="material-icons">date_range</i><span>12 june 2019</span></span>
+                    </div>
+                </div>
 			</div>
-						</div>
-						</div>
-					</div>
-					</div>
-					</div>
-					</div>
-					<div class="sidebar-categories left-sidebar w-100 float-left">
-					<div class="title">
-					<a data-toggle="collapse" href="#sidebar-categories" aria-expanded="false" aria-controls="sidebar-categories" class="d-lg-none block-toggler">Recent Posts</a>
-					</div>
-					<h3 class="widget-title text-capitalize">blog categories</h3>
-					<div id="sidebar-categories" class="">
-						<ul class="list">
-							<li><a href="#">fashion trends</a></li>
-							<li><a href="#">features</a></li>
-							<li><a href="#">latest style</a></li>
-							<li><a href="#">beauty & makeup</a></li>
-						</ul>
-					</div>
-					</div>
-					<div class="sidebar-tags left-sidebar w-100 float-left">
-					<div class="title">
-					<a data-toggle="collapse" href="#sidebar-tags" aria-expanded="false" aria-controls="sidebar-tags" class="d-lg-none block-toggler">Recent Posts</a>
-					</div>
-					<h3 class="widget-title text-capitalize">blog tags</h3>
-					<div id="sidebar-tags" class="">
-					<ul class="list">
-							<li><a href="#">fashion</a></li>
-							<li><a href="#">cosmetic</a></li>
-							<li><a href="#">shoes</a></li>
-							<li><a href="#">beauty</a></li>
-							<li><a href="#">makeup</a></li>
-							<li><a href="#">accessories</a></li>
-						</ul>
-					</div>
-					</div>
-					<div class="sidebar-archive left-sidebar w-100 float-left">
-					<div class="title">
-					<a data-toggle="collapse" href="#sidebar-archive" aria-expanded="false" aria-controls="sidebar-archive" class="d-lg-none block-toggler">Recent Posts</a>
-					</div>
-					<h3 class="widget-title text-capitalize">archive</h3>
-					<div id="sidebar-archive" class="">
-					<ul class="list">
-							<li><a href="#">june 2019</a></li>
-							<li><a href="#">january 2019</a></li>
-							<li><a href="#">february 2018</a></li>
-						</ul>
-					</div>
-					</div>
-					</div>
-
-			</div>
-		</div>
-		</div>
-	
+            </div>
+                
+        </div>
 
     <!-- Footer -->
 	<div class="block-newsletter"> 
@@ -780,7 +649,7 @@
             <li class="links">
                <span class="email">
 			  		<span class="icon"><i class="material-icons">email</i></span>
-					<span class="data"><a href="mailto:demo.store@gmail.com">demo.store@gmail.com</a></span>     </span>        </li>
+					<span class="data"><a href="mailto:demo.store@gmail.com">demo.store@gmail.com</a></span> </span>           </li>
           </ul>
         </div>
       </div>
@@ -801,72 +670,71 @@
   </footer>
   <!-- Footer -->
   
-  
   <!-- Register modal -->
-  <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-medium text-left">Sign up</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-4">
-          <input type="text" id="RegisterForm-name" class="form-control validate" placeholder="Your name">
-        </div>
-        <div class="md-form mb-4">
-          <input type="email" id="RegisterForm-email" class="form-control validate" placeholder="Your email">
-        </div>
-        <div class="md-form mb-4">
-          <input type="password" id="RegisterForm-pass" class="form-control validate" placeholder="Your password">
-        </div>
-		<div class="checkbox-link d-flex justify-content-between">
-		<div class="left-col">
-			<input id="remember-me" type="checkbox"><label for="remember_me">Remember Me</label>
-		</div>
-		<div class="right-col"><a href="#">Forget Password?</a></div>
-	</div>
-      </div>
-	  
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-primary">Sign up</button>
-      </div>
-    </div>
+<div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header text-center">
+	<h4 class="modal-title w-100 font-weight-medium text-left">Sign up</h4>
+	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	  <span aria-hidden="true">&times;</span>
+	</button>
   </div>
+  <div class="modal-body mx-3">
+	<div class="md-form mb-4">
+	  <input type="text" id="RegisterForm-name" class="form-control validate" placeholder="Your name">
+	</div>
+	<div class="md-form mb-4">
+	  <input type="email" id="RegisterForm-email" class="form-control validate" placeholder="Your email">
+	</div>
+	<div class="md-form mb-4">
+	  <input type="password" id="RegisterForm-pass" class="form-control validate" placeholder="Your password">
+	</div>
+	<div class="checkbox-link d-flex justify-content-between">
+	<div class="left-col">
+		<input id="remember-me" type="checkbox"><label for="remember_me">Remember Me</label>
+	</div>
+	<div class="right-col"><a href="#">Forget Password?</a></div>
+</div>
+  </div>
+  
+  <div class="modal-footer d-flex justify-content-center">
+	<button class="btn btn-primary">Sign up</button>
+  </div>
+</div>
+</div>
 </div>
 
 <!-- Login modal -->
 <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-medium text-left">Sign in</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-4">
-          <input type="text" id="LoginForm-name" class="form-control validate" placeholder="Your name">
-        </div>
-        <div class="md-form mb-4">
-          <input type="password" id="LoginForm-pass" class="form-control validate" placeholder="Your password">
-        </div>
-		<div class="checkbox-link d-flex justify-content-between">
-		<div class="left-col">
-			<input type="checkbox" id="remember_me"><label for="remember_me">Remember Me</label>
-		</div>
-		<div class="right-col"><a href="#">Forget Password?</a></div>
-	</div>
-      </div>
-	  
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-primary">Sign in</button>
-      </div>
-    </div>
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+  <div class="modal-header text-center">
+	<h4 class="modal-title w-100 font-weight-medium text-left">Sign in</h4>
+	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	  <span aria-hidden="true">&times;</span>
+	</button>
   </div>
+  <div class="modal-body mx-3">
+	<div class="md-form mb-4">
+	  <input type="text" id="LoginForm-name" class="form-control validate" placeholder="Your name">
+	</div>
+	<div class="md-form mb-4">
+	  <input type="password" id="LoginForm-pass" class="form-control validate" placeholder="Your password">
+	</div>
+	<div class="checkbox-link d-flex justify-content-between">
+	<div class="left-col">
+		<input type="checkbox" id="remember_me"><label for="remember_me">Remember Me</label>
+	</div>
+	<div class="right-col"><a href="#">Forget Password?</a></div>
+</div>
+  </div>
+  
+  <div class="modal-footer d-flex justify-content-center">
+	<button class="btn btn-primary">Sign in</button>
+  </div>
+</div>
+</div>
 </div>
 
 <!-- product_view modal -->
@@ -979,9 +847,9 @@
 	</div>
 </div>
 </div>
-  
-  <!-- cart-pop modal -->
-  <div class="modal fade" id="cart-pop" tabindex="-1" role="dialog" aria-hidden="true">
+
+<!-- cart-pop modal -->
+<div class="modal fade" id="cart-pop" tabindex="-1" role="dialog" aria-hidden="true">
 <div class="modal-dialog">
 	<div class="modal-content">
 		<div class="modal-header alert-success">
@@ -1038,9 +906,6 @@
 
 
 
-
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -1058,8 +923,8 @@
 		<script src="js/masonry.pkgd.min.js"></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/jquery.zoom.min.js"></script>
-		
-		<!--Start of Tawk.to Script-->
+
+<!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -1072,9 +937,9 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+		
 		</body>
 </html>
-
 
 
 
