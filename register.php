@@ -43,6 +43,8 @@
                     <span class="text-danger" id="pwd-danger-span"></span>
                     <span class="text-primary" id="pwd-medium-span"></span>
                     <span class="text-success" id="pwd-success-span"></span>
+                  
+      
                   </div>
                   <div class="form-group">
                     <label>Confirm Password</label>

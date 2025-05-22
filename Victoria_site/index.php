@@ -7,11 +7,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	    <title>Fashion Template for Bootstrap</title>
+  	 <title>Victoria</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Demo powered by Templatetrip">
-    <meta name="author" content="">
+    <meta name="description" content="E-commerce Devloped by Minhaj">
+    <meta name="author" content="Minhaj Uddin Hassan">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900" rel="stylesheet"> 
@@ -198,7 +198,7 @@
 			<div class="container">
 					<div class="row">
 							<div class="tt-title d-inline-block float-none w-100 text-center">Special Shirt Collection</div>
-							<div class="ttspecial-content products grid owl-carousel">
+							<div class="ttspecial-content products grid owl-carousel" id="slider3">
 							<?php
 									$details = "SELECT p.*, GROUP_CONCAT(i.name) as images 
 									FROM product p 
@@ -497,6 +497,24 @@
 
 
 		$('#slider2').owlCarousel({
+    loop: true,
+	autoplay: true,   
+    margin: 10,
+    nav: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
+$('#slider3').owlCarousel({
     loop: true,
 	autoplay: true,   
     margin: 10,
