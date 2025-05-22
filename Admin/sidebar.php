@@ -126,7 +126,7 @@
               <span class="menu-icon">
                 <i class="mdi mdi-contacts"></i>
               </span>
-              <span class="menu-title">Pnding Order</span>
+              <span class="menu-title">Pending Order</span>
             </a>
           </li>
 
